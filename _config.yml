@@ -13,7 +13,7 @@ urls:
   - text: About
     url: /about
   - text: Projects
-    url: /blog
+    url: /projects
   # - text: Gallery
   #   url: /gallery
   # - text: Shop
@@ -35,7 +35,7 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 # Experiences
 author_work_experiences:
   - company_name: John Deere
-    company_logo: google.png
+    company_logo: deere.png
     # company_url: https://google.com
     designation: Cloud Security Engineer
     description: Worked to secure Deere cloud infrastructure in AWS and Azure
@@ -43,7 +43,7 @@ author_work_experiences:
 
 # Education
 author_education_details:
-  - college_logo: mit.png
+  - college_logo: iastate.png
     college_name: Iowa State University
     college_url: https://iastate.edu
     college_degree: Cyber Security Engineering
@@ -78,7 +78,7 @@ linkedin_username: william-s-nash
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476blog
+# hyvor_talk_website_id: 476blog
 
 # wakatime username (coding activity)
 # wakatime_username: sujaykundu777
@@ -107,7 +107,7 @@ show_author_project_details: false
 # pagination of posts
 paginate: 4
 per_page: 4
-paginate_path: "/blog/page/:num/"
+paginate_path: "/projects/page/:num/"
 
 # minif
 # compress_html:
@@ -141,7 +141,7 @@ defaults:
       type: authors
     values:
       layout: author
-      permalink: /project/authors/:slug
+      permalink: /projects/authors/:slug
   - scope:
       path: "assets/**"
     values:
