@@ -35,6 +35,16 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "//"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "gallery"
+    label: "Gallery"
+    folder: "gallery"
+    create: true
+    slug: ".md"
+    fields:
+      - {label: "Layout", name: "layout", widget: "select", options: ["about", "blog", "contact", "gallery", "page", "product"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: "//"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "layouts"
     label: "Layouts"
     folder: "_layouts"
