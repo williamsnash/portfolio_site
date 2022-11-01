@@ -3,7 +3,7 @@ layout: post
 author: William Nash
 title: Portofolio Website
 date: 2022-10-25T18:08:07.868Z
-thumbnail-img: /assets/img/posts/hello.jpg
+thumbnail-img: /assets/img/posts/code.jpg
 category: jekyll
 summary: A website to be able to showcase myself, and projects I have worked on
 keywords: Jekyll, HTML, CSS, Web Design
